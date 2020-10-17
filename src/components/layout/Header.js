@@ -8,7 +8,7 @@ const Header = (props) => {
   return (
     <nav className="navbar navbar navbar-expand-sm  mb-3 py-0 container-fluid">
       <div className="container">
-        <Link to="/#">
+        <Link to="/">
           <i class="far fa-address-book"></i> {branding}
         </Link>
         <div>
