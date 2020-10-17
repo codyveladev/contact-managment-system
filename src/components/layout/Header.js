@@ -8,12 +8,9 @@ const Header = (props) => {
   return (
     <nav className="navbar navbar navbar-expand-sm  mb-3 py-0 container-fluid">
       <div className="container">
-        <a
-          href="https://codyveladev.github.io/contact-managment-system/#/"
-          className="navbar-brand"
-        >
+        <Link to="/">
           <i class="far fa-address-book"></i> {branding}
-        </a>
+        </Link>
         <div>
           <ul className="navbar-nav mr-auto">
             <li className="nav-item">
